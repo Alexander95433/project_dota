@@ -1,15 +1,15 @@
 .body {
-    background-color: #090D15;
-    width: 100vw;
+    background-color: black;
+    max-width: 1900px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .page {
     background-image: url(../images/background.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-color: #090D15;
-    max-width: 1900px;
-    min-width: min-content;
-    margin: auto;
 
 }
 
@@ -63,16 +63,58 @@
 }
 
 
-/*top-info*/
+.header__menu-wrapper {
+    display: flex;
+    align-items: center;
+}
 
-/*.top-info{
-max-width: 1216px;
-height: 717px;
-}*/
+.header__button-leng {
+    margin-right: 192px;
+    display: flex;
+    align-items: center;
+    width: 102px;
+    height: 40px;
+    background-color: #191D2D;
+    color: #9398B2;
+    border: none;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+.header__button-picture-lang {
+    width: 22px;
+    height: 16px;
+    padding-left: 16px;
+    padding-right: 8px;
+}
+
+.header__button-title-leng {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.header__button-element-arrow {
+    width: 12px;
+    height: 12px;
+    padding-left: 8px;
+}
+
+.header__button-picture-arrow {
+    width: 100%;
+    vertical-align: super;
+}
+
+
+
+
+/*top-info*/
 
 .top-info {
     background-image: url(../images/top-info_bg.png);
-    max-width: 1216px;
+    max-width: 1279px;
     min-height: 585px;
     background-position: right center;
     background-repeat: no-repeat;
@@ -92,7 +134,7 @@ height: 717px;
     margin: 0;
 }
 
-.top-info_button  {
+.top-info_button {
     align-self: start;
     background: #6E00DC;
     border-radius: 60px;
@@ -120,15 +162,17 @@ height: 717px;
 }
 
 .second {
-    max-width: 1320px;
+    max-width: 1568px;
     height: 589px;
     position: relative;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    margin-left: 60px;
-    justify-content: space-between;
-    bottom: 60px;    
+
+    justify-content: flex-end;
+    bottom: 60px;
+    margin: auto;
+
 }
 
 .line {
@@ -137,20 +181,27 @@ height: 717px;
     background-size: contain;
     width: 1216px;
     height: 1px;
+    position: absolute;
+
 }
 
 .line_top {
-    position: absolute;
     top: 0;
 }
 
-.second__content {}
+.line_zone-two {
+    top: 33px;
+}
+
+.second__content {
+    max-width: 445px;
+}
 
 .second__title {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 27px;
     line-height: 32px;
     margin: 0;
     max-width: 306px;
@@ -161,46 +212,57 @@ height: 717px;
     color: #E1E7F8;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
     margin: 24px 0 0;
-    max-width: 416px;
     height: 104px;
 
 }
 
-.second__background-action {
-    background-image: url(../images/aside_bg_left.png);
-    width: 840px;
-    height: 542px;
+.second__background {
+    width: 839px;
+    height: 590px;
+    background-size: cover;
     background-repeat: no-repeat;
-    margin-right: 64px;
     position: relative;
-    right: 0px;
-    bottom: 80px;
+    background-position: center;
 }
 
-.second__picture-prophet {
-    background-image: url(../images/death_prophet.png);
-    width: 840px;
-    height: 542px;
+.second__background_action {
+    background-image: url(../images/aside_bg_left.png);
+    margin-right: 127px;
+    left: 0;
+    top: -124px;
+}
+
+.second__picture {
+    width: 510px;
+    height: 510px;
     background-repeat: no-repeat;
     position: absolute;
-    left: 369px;
-    top: 60px;
+
+    background-size: contain;
+}
+
+
+.second__picture_prophet {
+    background-image: url(../images/death_prophet.png);
+    left: 416px;
+    top: -10px;
 }
 
 /*content-zone-two*/
 
 .second-two {
     flex-direction: row;
-    margin: 0 60px 41px auto;
+    margin: 0 165px 41px auto;
+    bottom: 177px;
 }
 
 .second__title_two {
     max-width: 384px;
     height: 64px;
-    
+
 }
 
 .second__subtitle_two {
@@ -208,29 +270,21 @@ height: 717px;
     height: 104px;
 }
 
-.second__picture-leshrac {
+.second__picture_leshrac {
     background-image: url(../images/leshrac.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 349px;
-    height: 349px;
-    position: absolute;
-    top: 135px;
-    right: 575px;
+    right: 590px;
+    width: 480px;
+    height: 480px;
 }
 
-.second__background-pay {
+
+.second__background_pay {
     background-image: url(../images/aside_bg_right.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 840px;
-    height: 542px;
-    position: relative;
-    bottom: 100px;
+    margin-left: 160px;
     right: 0px;
-    
+    top: -95px;
 }
 
-.border{
+.border {
     border: solid 1px white;
 }
