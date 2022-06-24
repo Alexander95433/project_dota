@@ -1,0 +1,12 @@
+.header__button-leng {
+    margin-right: 192px;
+    display: flex;
+    align-items: center;
+    width: 102px;
+    height: 40px;
+    background-color: #191D2D;
+    color: #9398B2;
+    border: none;
+    border-radius: 7px;
+    box-sizing: border-box;
+}

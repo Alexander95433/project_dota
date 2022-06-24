@@ -1,0 +1,8 @@
+.top-info {
+    background-image: url(../../images/top-info_bg.png);
+    max-width: 1279px;
+    min-height: 585px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}

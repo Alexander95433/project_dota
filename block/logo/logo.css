@@ -1,0 +1,16 @@
+.logo {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../images/logo_bg.svg);
+    background-size: contain;
+    background-position: center;
+    min-width: 119px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 192px;
+}

@@ -1,0 +1,15 @@
+.top-info__button {
+    align-self: start;
+    background: #6E00DC;
+    border-radius: 60px;
+    width: 253px;
+    height: 60px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 57px;
+    border: none;
+}

@@ -1,0 +1,11 @@
+.second {
+    max-width: 1568px;
+    height: 589px;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    bottom: 60px;
+    margin: auto;
+}
