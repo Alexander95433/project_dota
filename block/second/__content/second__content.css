@@ -1,3 +1,6 @@
 .second__content {
     max-width: 445px;
+    align-self: end;
+    height: min-content;
+    margin-bottom: 99px;
 }

@@ -1,8 +1,8 @@
 .line {
-    background-image: url(../images/footer_top_line.png);
+    background-image: url(../../../images/footer_top_line.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 1216px;
-    height: 1px;
+    height: 2px;
     position: absolute;
 }
