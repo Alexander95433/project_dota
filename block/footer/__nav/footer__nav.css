@@ -1,0 +1,6 @@
+.footer__nav {
+    width: calc(100% - 42%);
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 255px 69px 132px;
+}

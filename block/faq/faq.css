@@ -1,0 +1,8 @@
+.faq {
+    width: 1212px;
+    height: 280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}

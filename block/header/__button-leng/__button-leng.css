@@ -9,4 +9,5 @@
     border: none;
     border-radius: 7px;
     box-sizing: border-box;
+    cursor: pointer;
 }

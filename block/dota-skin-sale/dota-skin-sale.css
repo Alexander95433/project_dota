@@ -1,0 +1,10 @@
+.dota-skin-sale {
+    background-image: url(../../../images/dota_skin_money.png);
+    max-width: 1216px;
+    height: 305px;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}

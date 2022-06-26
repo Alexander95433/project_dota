@@ -1,0 +1,18 @@
+.faq__element-list {
+    width: 488px;
+    min-height: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 26px 24px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px #21242E;
+    cursor: pointer;
+}
+
+.faq__element-list:hover {
+    background-image: url(../../../images/question_active_bg.png);
+}

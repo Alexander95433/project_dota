@@ -1,0 +1,8 @@
+.fuuter__social {
+    background-image: url(../../../images/social.png);
+    width: 130px;
+    height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

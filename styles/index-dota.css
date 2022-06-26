@@ -47,145 +47,29 @@
 @import url(../block/second/__picture/_leshrac/second__picture_leshrac.css);
 @import url(../block/second/__background/_pay/second__background_pay.css);
 
-
 /*faq*/
-.faq {
-    width: 1212px;
-    height: 280px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-}
-
-.faq__list {
-    color: #FFFFFF;
-    list-style: none;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    margin-right: 104px;
-    padding: 0;
-}
-
-.faq__element-list_active {
-    background-image: url(../images/question_active_bg.png);
-}
-
-.faq__element-list {
-    width: 488px;
-    min-height: 70px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    padding: 26px 24px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: solid 1px #21242E;
-    cursor: pointer;
-}
-
-.faq__element-list:hover {
-    background-image: url(../images/question_active_bg.png);
-}
-
-
-.faq__list-title {
-    margin: 0;
-    padding: 0;
-    height: min-content;
-}
-
-.faq-element-arrow {
-    width: 16px;
-    height: 16px;
-}
-
-.faq-picture-arrow {
-    width: 100%;
-}
-
-.faq__content {
-    list-style: none;
-}
-
-.faq__faq__content-title {
-    max-width: 602px;
-    color: #FFFFFF;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 26px;
-    margin-bottom: 28px;
-}
-
-.faq__faq__content-subtitle {
-    max-width: 624px;
-    color: #E1E7F8;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-
-}
-
-.faq__faq__content-subtitle:last-of-type {
-    margin-top: 30px;
-}
+@import url(../block/faq/faq.css);
+@import url(../block/faq/__list/faq__list.css);
+@import url(../block/faq/__element-list/_active/faq__element-list_active.css);
+@import url(../block/faq/__element-list/faq__element-list.css);
+@import url(../block/faq/__content-title/faq__content-title.css);
+@import url(../block/faq/__element-arrow/faq__element-arrow.css);
+@import url(../block/faq/__picture-arrow/faq__picture-arrow.css);
+@import url(../block/faq/__content-subtitle/faq__content-subtitle.css);
+@import url(../block/faq/__content/faq__content.css);
+@import url(../block/faq/__list-title/faq__list-title.css);
 
 /*dota-skin-sale*/
-.dota-skin-sale {
-    background-image: url(../images/dota_skin_money.png);
-    max-width: 1216px;
-    height: 305px;
-    margin: auto;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    align-items: center;
-}
+@import url(../block/button/_dota-skin-sale.css/button_dota-skin-sale.css);
+@import url(../block/dota-skin-sale/dota-skin-sale.css);
 
-.button_dota-skin-sale {
-    margin: 178px auto 65px 72px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.border {
-    border: solid 1px white;
-}
+/*footer*/
+@import url(../block/footer/__copyright/footer__copyright.css);
+@import url(../block/footer/__ionfo-wrapper/footer__ionfo-wrapper.css);
+@import url(../block/footer/__list-element-title/footer__list-element-title.css);
+@import url(../block/footer/__list-element/footer__list-element.css);
+@import url(../block/footer/__list/footer__list.css);
+@import url(../block/footer/__nav/footer__nav.css);
+@import url(../block/footer/__social/fuuter__social.css);
+@import url(../block/footer/footer.css);
+@import url(../block/logo/_footer/logo_footer.css);
