@@ -1,6 +1,7 @@
 .body {
     background-color: black;
     max-width: 1600px;
+    min-width: 1370px;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
 }

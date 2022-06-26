@@ -14,5 +14,7 @@
 }
 
 .faq__element-list:hover {
-    background-image: url(../../../images/question_active_bg.png);
+    background-image: url(../../../images/question_active_bg.png); 
+   
+    
 }

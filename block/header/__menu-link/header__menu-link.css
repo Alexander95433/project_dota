@@ -1,4 +1,10 @@
 .header__menu-link {
     color: #9398B2;
     text-decoration: none;
+    transition: color .1s linear;
+}
+
+.header__menu-link:hover {
+    color: white;
+    transition: color .2s linear;
 }

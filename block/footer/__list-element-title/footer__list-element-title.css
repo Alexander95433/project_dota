@@ -5,4 +5,9 @@
     font-size: 14px;
     line-height: 17px;
     text-decoration: none;
+    transition: .1s linear;
+}
+.footer__list-element-title:hover {
+    color: white ;
+    transition: color .2s linear;
 }
