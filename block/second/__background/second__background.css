@@ -1,8 +1,9 @@
 .second__background {
     width: 839px;
-    height: 542px;
+    height: 489px;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    bottom: 79px;
     background-position: center;
 }
