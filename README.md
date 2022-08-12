@@ -27,6 +27,6 @@
 - **Анимация**  Transition 
 
 ## Ссылки
-- **макет Figma** https://www.figma.com/file/mWuJpMnGkLBoYfprgAhRr9/SkinTrade-landing-(Copy)?node-id=101%3A178     
+- **Макет Figma** https://www.figma.com/file/mWuJpMnGkLBoYfprgAhRr9/SkinTrade-landing-(Copy)?node-id=101%3A178     
 - **Ссылка на сайт** https://alexander95433.github.io/project_dota/index-dota.html
 
