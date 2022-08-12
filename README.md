@@ -20,7 +20,7 @@
 - **Семантические теги**
 ### CSS:
 - **Flexbox**
-- **Psition absolute, relftive
+- **Psition absolute, relftive**
 - **Grid-layout**
 - **БЭМ Nested**
 - **Псевдоклассы CSS**
